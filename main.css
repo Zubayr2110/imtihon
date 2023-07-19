@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.container{
+    width: 1600px;
+    height: 3580px;
+    margin: 0 auto;
+}
+header{
+    width: 1600px;
+    height: 720px;
+}
+nav{
+    margin-top: 27px;
+    display: flex;
+    width: 1600px;
+    height: 81px;
+}
+.logo{
+    margin-left: 230px;
+    margin-top: 3px;
+    width: 69px;
+    height: 69px;
+}
+.list{
+    margin-left: 250px;
+    display: flex;
+    width: 480px;
+    height: 58px;
+}
+.nav-list{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    justify-content: space-around;
+}
+.nav-li{
+    color: #0082F4;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav-li1{
+    margin-left: 40px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 200px;
+    width: 161px;
+    height: 52px;
+    border-radius: 6px;
+    background-color: #0082F4;
+}
+.navb-p{
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.hero{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 224px;
+    width: 1152px;
+    height: 500px;
+}
+.hero-text{
+    margin-top: 100px;
+    width: 531px;
+    height: 341px;
+}
+.herot-span{
+    margin-top: 100px;
+    color: #0080FD;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+.herot-h1{
+    margin-top: -0px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 60.55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+.herot-h1-s{
+    color: #0082F4;
+    font-family: 'Roboto';
+    font-size: 60.55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+.hero-p{
+    margin-top: -20px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.hero-button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    width: 194px;
+    height: 63px;
+    border-radius: 10px;
+    background: #0082F4;
+}
+.herob1-p{
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.hero-button2{
+    display: flex;
+    margin-left: 220px;
+    margin-top: -63px;
+    width: 188px;
+    height: 63px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.herob2-img{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.herob2-span{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.hero-img{
+    display: flex;
+    margin-left: 124px;
+    width: 500px;
+    height: 500px;
+}
+
+
+main{
+    width: 1600px;
+    height: 2800px;
+}
+.hero-area2{
+    display: flex;
+    margin-left: 221px;
+    margin-top: 165px;
+    width: 1174px;
+    height: 486px;
+}
+.area2-img{
+    width: 486px;
+    height: 486px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.area2-text{
+    margin-left: 185px;
+    margin-top: 70px;
+    width: 503px;
+    height: 359px;
+    flex-shrink: 0;
+}
+.are2t-1{
+    color: #0082F4;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+.area2-h2{
+    margin-top: -10px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+.area2-3{
+    margin-top: -20px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.area2-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 193px;
+    height: 63px;
+    border-radius: 10px;
+    background: #0082F4;
+}
+.area2b-p{
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.our-feature{
+    text-align: center;
+    margin-top: 210px;
+    margin-left: 221px;
+    width: 1164px;
+    height: 489px;
+}
+.our-h2{
+    margin-top: -10px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 48.44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.our-div{
+    display: flex;
+    width: 1164px;
+    height: 380px;
+}
+.our-div1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    width: 324px;
+    height: 100%;
+}
+.our-div-h4{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+.our-div-p{
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+
+.testimonials{
+    margin-top: 120px;
+    margin-left: 221px;
+    width: 1127px;
+    height: 416px;
+}
+.testimonials-1{
+    display: flex;
+    width: 100%;
+    height: 73px;
+}
+.testimonials-1-h2{
+    margin-top: -5px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 48.44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.testimonials-1-img{
+    margin-left: 275px;
+    margin-top: 6px;
+    width: 140px;
+    height: 50px;
+}
+.testimonials-2{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    height: 283px;
+}
+.testimonials-2-1{
+    display: flex;
+    margin-left: 67px;
+    width: 420px;
+    height: 283px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.06);
+    background-image: url(./images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+}
+.testimonials-2-1-img{
+    margin-top: 111px;
+    margin-left: 32px;
+    width: 61px;
+    height: 61px;
+    fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.line-3{
+    margin-left: 34px;
+    width: 250px;
+    height: 280px;
+}
+.line-3-1{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.line-3-2{
+    margin-left: 20px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.line-3-3{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+
+
+.cta-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    width: 1600px;
+    height: 338px;
+    background-color: #e9f5ff;
+}
+.cta-1-1{
+    text-align: center;
+    width: 490px;
+    height: 330px;
+}
+.cta-1-h3{
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #058AFF;
+    text-align: right;
+    font-family: 'Roboto';
+    font-size: 31.25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.cta-1-p{
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+form{
+    display: flex;
+    margin-top: 30px;
+    width: 487px;
+    height: 82px;
+    background-color: #fff;
+    border-radius: 10px;
+    background-image: url(./images/MAIL\ LOGO.png);
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    background-position-y: 25px;
+}
+.form-input{
+    margin-left: 85px;
+    width: 300px;
+    height: 75px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid white;
+}
+.form-button{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+    height: 52px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 130, 244, 1);
+}
+.send{
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+footer{
+    width: 1600px;
+    height: 449px;
+}
+.footer-1{
+    display: flex;
+    margin-left: 229px;
+    margin-top: 60px;
+    width: 1100px;
+    height: 218px;
+}
+.footer1-1-logo{
+    width: 69px;
+    height: 69px;
+}
+.footer1-1{
+    width: 139px;
+    height: 149px;
+}
+.f1-1-1{
+    list-style: none;
+}
+.f1-1-2{
+    margin-top: 10px;   
+    margin-left: -40px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.footer1-2{
+    margin-left: 153px;
+    width: 194px;
+    height: 218px;
+}
+.f1-2-1{
+    margin-top: -10px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.footer1-3{
+    margin-left: 90px;
+    width: 220px;
+    height: 165px;
+}
+.number1{
+    margin-top: -20px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.hellodigital{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration-line: underline;
+}
+
+
+.footer-2{
+    display: flex;
+    margin-top: 49px;
+    width: 1600px;
+    height: 120px;
+    background: linear-gradient(180deg, #058AFF 0%, rgba(57, 55, 206, 0.87) 62.83%);;
+}
+.digit{
+    margin-left: 230px;
+    margin-top: 40px;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.footer-img2{
+    margin-left: 138px;
+    margin-top: 40px;
+    width: 211px;
+    height: 31px;
+}
+.footer-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 131px;
+    height: 52px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.f-b-p{
+    color: #3C61E1;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
